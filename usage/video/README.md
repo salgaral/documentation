@@ -15,3 +15,7 @@ There is a video sample of the animated film *Big Buck Bunny* available on the P
 ```bash
 omxplayer /opt/vc/src/hello_pi/hello_video/test.h264
 ```
+
+## Automate opening file with terminal
+
+If you are in the Desktop Rasbian, press right boton in the file which you want to open > Open With > Custom Command Line, in 'Command line to execute' write 'omxplayer %f' and check 'Execute in terminal emulator' and also at the bottom where put 'Application name (optional, set it to keep association)' write 'terminal' and check 'Set selected application as default action for this type'. Now, press Ok and the next time you just need to double click the files with the same extension.  
